@@ -26,7 +26,7 @@ load_dotenv()
 
 def get_verification_url(token: str) -> str:
     """Generate verification URL"""
-    base_url = os.getenv('VERIFICATION_URL', 'http://192.168.6.111:8501')
+    base_url = os.getenv('VERIFICATION_URL', 'http://localhost:8501')
     # Instead of /verify, use query parameter 'page=verify'
     return f"{base_url}/?page=verify&token={urllib.parse.quote(token)}"
 
