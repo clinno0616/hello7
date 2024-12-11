@@ -592,49 +592,7 @@ class Database:
             return None, f"Authentication error: {str(e)}"
         finally:
             conn.close()
-
-
-    """
-    def verify_user(self, username, password):
-        #Verify user credentials
-        conn = sqlite3.connect(self.db_name)
-        cursor = conn.cursor()
-        password_hash = self.hash_password(password)
-        cursor.execute(
-            "SELECT user_id FROM users WHERE username = ? AND password_hash = ?",
-            (username, password_hash)
-        )
-        result = cursor.fetchone()
-        conn.close()
-        return result[0] if result else None
-    
-    def save_api_key(self, user_id, api_type, api_key):
-        #Save API key for a user
-        conn = sqlite3.connect(self.db_name)
-        cursor = conn.cursor()
-        column = f"{api_type}_api_key"
-        cursor.execute(
-            f"UPDATE users SET {column} = ? WHERE user_id = ?",
-            (api_key, user_id)
-        )
-        conn.commit()
-        conn.close()
-    
-
-    def get_api_key(self, user_id, api_type):
-        #Get API key for a user
-        conn = sqlite3.connect(self.db_name)
-        cursor = conn.cursor()
-        column = f"{api_type}_api_key"
-        cursor.execute(
-            f"SELECT {column} FROM users WHERE user_id = ?",
-            (user_id,)
-        )
-        result = cursor.fetchone()
-        conn.close()
-        return result[0] if result else None
-    """
-        
+       
     def create_chat_session(self, user_id, api_source):
         """Create a new chat session and return its ID"""
         conn = sqlite3.connect(self.db_name)
