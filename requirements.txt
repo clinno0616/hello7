@@ -1,0 +1,51 @@
+# Core dependencies
+streamlit>=1.31.0
+python-dotenv>=1.0.0
+torch>=2.1.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# API Clients
+openai>=1.12.0
+anthropic>=0.19.0
+groq>=0.4.0
+
+# Database and Storage
+chromadb>=0.4.0
+tenacity>=8.2.0
+sqlite3>=3.35.0
+
+# Document Processing
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+
+# Authentication and Security
+ldap3>=2.9.0
+cryptography>=42.0.0
+
+# Image and Vision Processing
+qwen-vl-utils>=1.0.0
+transformers>=4.38.0
+accelerate>=0.27.0
+optimum>=1.17.0
+auto-gptq>=0.7.0
+
+# Email and Communication
+email-validator>=2.0.0
+
+# Additional Utils
+urllib3>=2.0.0
+requests>=2.31.0
+uuid>=1.30.0
+logging>=0.5.1
+pathlib>=1.0.1
+typing>=3.7.4
+
+# Optional Dependencies
+shadcn-ui>=0.1.0  # If using shadcn components
+recharts>=2.12.0  # For data visualization
+lucide-react>=0.263.1  # For icons
+papaparse>=5.4.0  # For CSV processing
+lodash>=4.17.0  # For utility functions
