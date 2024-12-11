@@ -6,9 +6,9 @@ An advanced chat application that integrates multiple AI models, document proces
 
 ### AI Integration
 - Support for multiple AI providers:
-  - OpenAI (GPT-4)
-  - Anthropic (Claude)
-  - Groq (llama-3.3-70b-versatile)
+  - OpenAI (GPT-4), Need API Key.
+  - Anthropic (Claude) Need API Key.
+  - Groq (llama-3.3-70b-versatile) Need API Key.
   - OLLAMA (Local models)
 - Vision processing capabilities using LLaMA Vision (llama-3.2-90b-vision-preview models)
 
