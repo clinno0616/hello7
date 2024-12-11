@@ -168,3 +168,8 @@ limitations under the License.
 For detailed license terms, please refer to the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) official website.
 
 ## User Interface
+Default admin is 'admin' , password is 'admin123'
+![image](https://github.com/user-attachments/assets/5a7251ac-9128-4ffc-a7c6-dc687a7760ea)
+![image](https://github.com/user-attachments/assets/dfdd84a9-6859-41fa-ba6b-b029f9d26594)
+
+
